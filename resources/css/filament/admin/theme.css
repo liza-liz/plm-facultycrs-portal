@@ -39,31 +39,3 @@
 .fi .fi-topbar {
     background-color: rgb(43, 44, 135);
 }
-
-
-/* Add styles for the navbar heading */
-.fi-navbar {
-    background-color: rgb(43, 44, 135); /* Same blue color as the sidebar */
-}
-
-.fi-navbar .fi-navbar-item-label,
-.fi-navbar .fi-navbar-group-label {
-    @apply text-gray-200; /* Similar text color as the sidebar labels */
-}
-
-.fi-navbar-item-active .fi-navbar-item-label {
-    @apply text-primary-600;
-}
-
-.fi-navbar-item:not(.fi-navbar-item-active):hover .fi-navbar-item-label {
-    @apply text-gray-600;
-}
-
-.fi-navbar-item-icon {
-    @apply text-gray-100;
-}
-
-.fi-navbar-item:hover .fi-navbar-item-icon,
-.fi-navbar-item-active .fi-navbar-item-icon {
-    @apply text-gray-600;
-}
