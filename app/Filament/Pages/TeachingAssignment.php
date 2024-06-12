@@ -22,7 +22,7 @@ class TeachingAssignment extends Page implements HasForms, HasTable
     use InteractsWithForms, InteractsWithTable;
     protected static ?string $navigationIcon = 'heroicon-o-document-magnifying-glass';
 
-    protected static string $view = 'faculty.pages.teaching-assignment';
+    protected static string $view = 'filament.pages.teaching-assignment';
 
     protected static ?int $navigationsort = 2;
     public $user_id;
