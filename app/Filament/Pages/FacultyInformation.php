@@ -12,7 +12,7 @@ class FacultyInformation extends Page
 {
     protected static ?string $navigationIcon = 'heroicon-o-identification';
 
-    protected static string $view = 'faculty.pages.faculty-information';
+    protected static string $view = 'filament.pages.faculty-information';
 
     protected static ?int $navigationsort = 4;
 
